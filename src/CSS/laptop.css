@@ -1,0 +1,11 @@
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .aboutme, li {
+    font-size: 350%;
+  }
+
+  #centerbox {
+    border-width: 5px;
+    width: 100vw;
+    height: auto;
+  }
+}
