@@ -8,7 +8,7 @@
 
 :root {
   --background-color: black;
-  font-size: 16px;
+  font-size: 5vw;
 }
 
 body {
@@ -31,17 +31,28 @@ body {
 }
 
 #centerbox {
-  margin: auto auto;
   border-style: solid;
   border-color: white;
+  /* margin: 20vh auto 10vh auto; */
 }
 
 nav ul {
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style-type: none;
   margin: auto 5vw;
+}
+
+.projectDisplay {
+  display: grid;
+  justify-content: center;
+}
+
+.project {
+  border: 1px solid green;
 }

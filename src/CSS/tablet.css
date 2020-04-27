@@ -1,12 +1,19 @@
 @media (min-width: 768px) and (max-width: 1023px) {
-  .aboutme,
-  li {
-    font-size: 300%;
-  }
-
   #centerbox {
     border-width: 4px;
-    width: 90vw;
-    height: auto;
+    margin: 20vh auto 10vh auto;
+  }
+
+  #pythonLogo,
+  #javascriptLogo {
+    font-size: 8vw;
+  }
+
+  .projectDisplay {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .project {
+    width: 30vw;
   }
 }
