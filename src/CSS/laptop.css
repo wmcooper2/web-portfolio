@@ -1,11 +1,10 @@
 @media (min-width: 1024px) and (max-width: 1439px) {
   #centerbox {
     border-width: 5px;
-    margin: 20vh auto 10vh auto;
+    margin: 20vh auto auto auto;
   }
 
-  #pythonLogo,
-  #javascriptLogo {
+  .navIcon {
     font-size: 8vw;
   }
 
@@ -15,5 +14,6 @@
 
   .project {
     width: 30vw;
+    font-size: 2vw;
   }
 }

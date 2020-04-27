@@ -1,17 +1,18 @@
 import React from "react";
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-import { faPython } from "@fortawesome/free-brands-svg-icons";
-import { faJs } from "@fortawesome/free-brands-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faPython, faJs } from "@fortawesome/free-brands-svg-icons";
 import AboutMe from "./components/aboutme";
 import Project from "./components/project";
 import Err404 from "./components/err404";
+import Home from "./components/home";
 
 import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
 
 const pythonLogo = <FontAwesomeIcon icon={faPython} id="pythonLogo" />;
 const jsLogo = <FontAwesomeIcon icon={faJs} id="javascriptLogo" />;
+const homeLogo = <FontAwesomeIcon icon={faHome} id="homeLogo" />;
 
 function App() {
   let aboutme1 = {
@@ -19,8 +20,11 @@ function App() {
     id: "aboutme1",
   };
 
-  let project = {
-    text: "Project",
+  let picProj = {
+    href: "someurl",
+    thumbnail: "thumbs/workingonit.png",
+    altText: "alt text",
+    description: "Some description about a project.",
   };
 
   return (
@@ -31,37 +35,53 @@ function App() {
           <nav className="projectNav">
             <ul>
               <li>
-                <NavLink to="/python" id="pythonLogo">
+                <NavLink to="/" className="navIcon">
+                  {homeLogo}
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/python" className="navIcon" id="pythonLogo">
                   {pythonLogo}
                 </NavLink>
               </li>
               <li>
-                <NavLink to="javascript" id="javascriptLogo">
+                <NavLink
+                  to="javascript"
+                  className="navIcon"
+                  id="javascriptLogo"
+                >
                   {jsLogo}
                 </NavLink>
               </li>
             </ul>
           </nav>
-          <div className="projectDisplay">
-            <Switch>
-              <Route exact path="/">
-                Welcome
-              </Route>
-              <Route path="/python">
-                <Project object={project} />
-                <Project object={project} />
-                <Project object={project} />
-                <Project object={project} />
-                <Project object={project} />
-              </Route>
-              <Route path="/javascript">
-                <Project object={project} />
-              </Route>
-              <Route path="*">
+
+          {/* <div className="projectDisplay"> */}
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/python">
+              <div className="projectDisplay">
+                <Project object={picProj} />
+                <Project object={picProj} />
+                <Project object={picProj} />
+                <Project object={picProj} />
+                <Project object={picProj} />
+              </div>
+            </Route>
+            <Route path="/javascript">
+              <div className="projectDisplay">
+                <Project object={picProj} />
+              </div>
+            </Route>
+            <Route path="*">
+              <div className="projectDisplay">
                 <Err404 />
-              </Route>
-            </Switch>
-          </div>
+              </div>
+            </Route>
+          </Switch>
+          {/* </div> */}
         </div>
       </div>
     </BrowserRouter>

@@ -34,19 +34,26 @@ body {
 #centerbox {
   border-style: solid;
   border-color: white;
-  /* margin: 20vh auto 10vh auto; */
+  /* transition-duration: 1000ms; */
 }
 
 nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 10vw;
+}
+
+ul {
   margin: 0;
   padding: 0;
 }
 
 li {
   list-style-type: none;
-  margin: auto 5vw;
 }
 
 .projectDisplay {
@@ -55,10 +62,26 @@ li {
 }
 
 .project {
-  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid green; */
 }
 
 #pythonLogo,
 #javascriptLogo {
   color: var(--font-color);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  text-decoration: none;
+  text-align: center;
+}
+
+img {
+  width: 100%;
 }
