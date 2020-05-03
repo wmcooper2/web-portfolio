@@ -3,7 +3,7 @@ import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faPython, faJs } from "@fortawesome/free-brands-svg-icons";
-import AboutMe from "./components/aboutme";
+// import AboutMe from "./components/aboutme";
 import Project from "./components/project";
 import Err404 from "./components/err404";
 import Home from "./components/home";
@@ -15,10 +15,10 @@ const jsLogo = <FontAwesomeIcon icon={faJs} id="javascriptLogo" />;
 const homeLogo = <FontAwesomeIcon icon={faHome} id="homeLogo" />;
 
 function App() {
-  let aboutme1 = {
-    text: "Coding is my passion",
-    id: "aboutme1",
-  };
+  // let aboutme1 = {
+  // text: "Coding is my passion",
+  // id: "aboutme1",
+  // };
 
   let picProj = {
     href: "someurl",
@@ -30,24 +30,25 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <AboutMe object={aboutme1} />
+        {/* <AboutMe object={aboutme1} /> */}
         <div id="centerbox">
-          <nav className="projectNav">
+          {/* <nav className="projectNav"> */}
+          <nav>
             <ul>
               <li>
-                <NavLink to="/" className="navIcon">
+                <NavLink to="/" className="navicon">
                   {homeLogo}
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/python" className="navIcon" id="pythonLogo">
+                <NavLink to="/python" className="navicon" id="pythonLogo">
                   {pythonLogo}
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   to="javascript"
-                  className="navIcon"
+                  className="navicon"
                   id="javascriptLogo"
                 >
                   {jsLogo}

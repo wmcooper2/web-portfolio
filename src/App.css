@@ -5,11 +5,34 @@
 @import "CSS/laptop.css";
 @import "CSS/mobileM.css";
 @import "CSS/mobileL.css";
+@import "CSS/customAnimations.css";
 
 :root {
-  --background-color: black;
-  --font-color: white;
-  font-size: 5vw;
+  --background-color: white;
+  --font-color: black;
+  --width8: 80%;
+  --width9: 90%;
+  --max-width: 100%;
+  --max-height: 100%;
+
+  --very-very-small-font: 1vw;
+  --very-small-font: 2vw;
+  --small-font: 4vw;
+  --medium-font: 6vw;
+  --large-font: 9vw;
+  --very-large-font: 15vw;
+  --very-very-large-font: 21vw;
+
+  --small-icon: 5vw;
+  --medium-icon: 10vw;
+  --large-icon: 20vw;
+
+  --small-margin: 3%;
+  --medium-margin: 6%;
+  --large-margin: 9%;
+
+  --main-font: '"Playfair Display SC", serif';
+  font-size: var(--medium-font);
 }
 
 body {
@@ -25,16 +48,13 @@ body {
   color: var(--font-color);
 }
 
-.aboutme {
-  position: absolute;
-  font-family: "Playfair Display SC", serif;
-  opacity: 0.3;
+#centerbox {
+  padding: 3vh 3vw;
 }
 
-#centerbox {
-  border-style: solid;
-  border-color: white;
-  /* transition-duration: 1000ms; */
+#pythonLogo,
+#javascriptLogo {
+  color: var(--font-color);
 }
 
 nav ul {
@@ -42,9 +62,22 @@ nav ul {
   justify-content: space-evenly;
 }
 
+ul {
+  padding: 0;
+}
+
+.navicon,
+.welcome,
+.welcome-message {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  font-family: "Playfair Display SC", serif;
+}
+
 .welcome {
   text-align: center;
-  font-size: 10vw;
+  font-size: var(--large-font);
 }
 
 ul {
@@ -64,11 +97,9 @@ li {
 .project {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid green; */
 }
 
-#pythonLogo,
-#javascriptLogo {
+.socialmedia {
   color: var(--font-color);
 }
 
@@ -83,5 +114,5 @@ a:active {
 }
 
 img {
-  width: 100%;
+  width: var(--max-width);
 }

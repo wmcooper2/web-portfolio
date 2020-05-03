@@ -1,11 +1,23 @@
 @media (min-width: 425px) and (max-width: 767px) {
   #centerbox {
-    border-width: 3px;
-    margin: 20vh auto auto auto;
+    width: 90vw;
+    margin: var(--small-margin) auto auto auto;
   }
 
-  .navIcon {
-    font-size: 12vw;
+  .navicon {
+    font-size: var(--large-icon);
+  }
+
+  .welcome-title {
+    font-size: var(--very-large-font);
+  }
+
+  .welcome-message {
+    font-size: var(--very-small-font);
+  }
+
+  .socialmedia {
+    font-size: var(--large-font);
   }
 
   .projectDisplay {
@@ -14,6 +26,6 @@
 
   .project {
     width: 45vw;
-    font-size: 3vw;
+    font-size: var(--small-font);
   }
 }
