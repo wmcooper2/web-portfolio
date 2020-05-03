@@ -1,17 +1,19 @@
 import React from "react";
-import Thumb from "./thumb";
-
-//sample object
-// title: string
-// descritpion: string
-// image: string url
-// things learned: jsx list?
+// import Thumb from "./thumb";
 
 const Project = (props) => {
-  const { object } = props;
+  const { href, thumb, alt, description } = props;
   return (
     <div className="project">
-      <Thumb {...object} />
+      <a href={href}>
+        <figure>
+          <img className="thumb" src={thumb} alt={alt} />
+        </figure>
+        <ul>
+          {/* <li>{alt}</li> */}
+          <li className="project-description">{description}</li>
+        </ul>
+      </a>
     </div>
   );
 };

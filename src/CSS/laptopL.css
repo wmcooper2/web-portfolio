@@ -1,5 +1,5 @@
 @media (min-width: 1440px) and (max-width: 2559px) {
-  #centerbox {
+  .center-box {
     width: 90vw;
     margin: var(--small-margin) auto auto auto;
   }
@@ -16,7 +16,7 @@
     font-size: var(--very-small-font);
   }
 
-  .socialmedia {
+  .social-media {
     font-size: var(--medium-font);
   }
 
@@ -27,5 +27,9 @@
   .project {
     width: 23vw;
     font-size: var(--very-small-font);
+  }
+
+  img {
+    width: 100%;
   }
 }

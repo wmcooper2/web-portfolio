@@ -1,5 +1,5 @@
 @media (min-width: 425px) and (max-width: 767px) {
-  #centerbox {
+  .center-box {
     width: 90vw;
     margin: var(--small-margin) auto auto auto;
   }
@@ -16,16 +16,22 @@
     font-size: var(--very-small-font);
   }
 
-  .socialmedia {
+  .social-media {
     font-size: var(--large-font);
   }
 
   .projectDisplay {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr 1fr; */
   }
 
   .project {
-    width: 45vw;
+    width: 90vw;
+    /* width: 45vw; */
     font-size: var(--small-font);
+  }
+
+  img {
+    width: 100%;
   }
 }

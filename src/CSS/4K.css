@@ -1,5 +1,5 @@
 @media (min-width: 2560px) {
-  #centerbox {
+  .center-box {
     width: 80vw;
     margin: var(--small-margin) auto auto auto;
   }
@@ -16,16 +16,20 @@
     font-size: var(--very-small-font);
   }
 
-  .socialmedia {
+  .social-media {
     font-size: var(--medium-font);
   }
 
   .projectDisplay {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .project {
     width: 18vw;
     font-size: var(--very-small-font);
+  }
+
+  img {
+    width: 100%;
   }
 }

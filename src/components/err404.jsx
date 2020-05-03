@@ -1,7 +1,7 @@
 import React from "react";
 
 const Err404 = () => {
-  return <div>Not Found</div>;
+  return <div className="center-box not-found">Not Found</div>;
 };
 
 export default Err404;
