@@ -8,9 +8,11 @@ const Project = (props) => {
       <a href={href}>
         <figure>
           <img className="thumb" src={thumb} alt={alt} />
+          <figcaption>{alt}</figcaption>
         </figure>
         <ul>
           {/* <li>{alt}</li> */}
+
           <li className="project-description">{description}</li>
         </ul>
       </a>

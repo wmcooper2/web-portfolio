@@ -30,8 +30,8 @@
   --very-very-large-font: 21vw;
 
   --small-icon: 5vw;
-  --medium-icon: 10vw;
-  --large-icon: 20vw;
+  --medium-icon: 8vw;
+  --large-icon: 15vw;
 
   --small-margin: 3%;
   --medium-margin: 6%;
@@ -100,6 +100,16 @@ nav ul li {
   display: flex;
   flex-direction: column;
   margin: var(--medium-margin);
+  font-family: Arial;
+}
+
+.project-description {
+  padding: 5%;
+  text-align: left;
+}
+
+figcaption {
+  font-weight: bold;
 }
 
 .social-media {

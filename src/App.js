@@ -28,18 +28,21 @@ function App() {
                 </NavLink>
                 <div className="border-bottom-expand"></div>
               </li>
-              <li id="python">
-                <NavLink to="/python" className="navicon">
-                  {pythonLogo}
-                </NavLink>
-                <div className="border-bottom-expand"></div>
-              </li>
+
               <li id="javascript">
                 <NavLink to="javascript" className="navicon">
                   {jsLogo}
                 </NavLink>
                 <div className="border-bottom-expand"></div>
               </li>
+              
+              <li id="python">
+                <NavLink to="/python" className="navicon">
+                  {pythonLogo}
+                </NavLink>
+                <div className="border-bottom-expand"></div>
+              </li>
+
             </ul>
           </nav>
 
@@ -47,35 +50,47 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
+
+            <Route path="/javascript">
+              <div className="projectDisplay">
+                <Project {...projects.simpleResume} />
+                <Project {...projects.teflAssistant} />
+                <Project {...projects.tokyoPython} />
+                <Project {...projects.pokemonPronouns} />
+                <Project {...projects.volunteers} />
+                <Project {...projects.teaDictionary} />
+                <Project {...projects.teaSentences} />
+                <Project {...projects.hidingSpotGame} />
+                <Project {...projects.matchGame} />
+                <Project {...projects.colorChangingTiles} />
+                <Project {...projects.treeMap} />
+                <Project {...projects.choroplethMap} />
+                <Project {...projects.heatMap} />
+                <Project {...projects.scatterPlot} />
+                <Project {...projects.barChart} />
+                <Project {...projects.pomodoroClock} />
+                <Project {...projects.calculator} />
+                <Project {...projects.drumMachine} />
+                <Project {...projects.quoteMachine} />
+                <Project {...projects.markdownPreview} />
+                <Project {...projects.techDoc} />
+                <Project {...projects.fakeProduct} />
+                <Project {...projects.simpleSurvey} />
+                <Project {...projects.keeylyTribute} />
+              </div>
+            </Route>
+
             <Route path="/python">
               <div className="projectDisplay">
-                <Project {...projects.pythonTEA} />
+                <Project {...projects.transitFares} />
                 <Project {...projects.marioReview} />
                 <Project {...projects.lyricScraper} />
-                <Project {...projects.lyricSearch} />
                 <Project {...projects.billboardScraper} />
+                <Project {...projects.pythonTEA} />
+                <Project {...projects.lyricSearch} />
                 <Project {...projects.piCluster} />
                 <Project {...projects.pictureCollector} />
                 <Project {...projects.machineScripts} />
-                <Project {...projects.transitFares} />
-              </div>
-            </Route>
-            <Route path="/javascript">
-              <div className="projectDisplay">
-                <Project {...projects.keeylyTribute} />
-                <Project {...projects.simpleSurvey} />
-                <Project {...projects.fakeProduct} />
-                <Project {...projects.techDoc} />
-                <Project {...projects.markdownPreview} />
-                <Project {...projects.quoteMachine} />
-                <Project {...projects.drumMachine} />
-                <Project {...projects.calculator} />
-                <Project {...projects.pomodoroClock} />
-                <Project {...projects.barChart} />
-                <Project {...projects.scatterPlot} />
-                <Project {...projects.heatMap} />
-                <Project {...projects.choroplethMap} />
-                <Project {...projects.treeMap} />
               </div>
             </Route>
             <Route path="*">
