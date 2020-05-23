@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faPython, faJs } from "@fortawesome/free-brands-svg-icons";
 import Project from "./components/project";
+import projects from "./projectData";
 import Err404 from "./components/err404";
 import Home from "./components/home";
 
 import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
-import projects from "./projectData";
 
 const homeLogo = <FontAwesomeIcon icon={faHome} id="homeLogo" />;
 const pythonLogo = <FontAwesomeIcon icon={faPython} id="pythonLogo" />;
@@ -35,14 +35,13 @@ function App() {
                 </NavLink>
                 <div className="border-bottom-expand"></div>
               </li>
-              
+
               <li id="python">
                 <NavLink to="/python" className="navicon">
                   {pythonLogo}
                 </NavLink>
                 <div className="border-bottom-expand"></div>
               </li>
-
             </ul>
           </nav>
 
