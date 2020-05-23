@@ -30,7 +30,7 @@ function App() {
               </li>
 
               <li id="javascript">
-                <NavLink to="javascript" className="navicon">
+                <NavLink to="/javascript" className="navicon">
                   {jsLogo}
                 </NavLink>
                 <div className="border-bottom-expand"></div>

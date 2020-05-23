@@ -99,8 +99,18 @@ nav ul li {
 .project {
   display: flex;
   flex-direction: column;
+  text-align: center;
   margin: var(--medium-margin);
   font-family: Arial;
+  /* border: 1px solid black; */
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(0, 0, 0, 1); */
+  /* border-collapse: collapse; */
+}
+
+.project,
+.thumb {
+  border-radius: 2%;
 }
 
 .project-description {

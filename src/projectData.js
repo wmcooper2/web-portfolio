@@ -5,7 +5,7 @@ const projects = {
     thumb: "thumbs/totalenglishpython.jpg",
     alt: "Total English Dictionary",
     description:
-      "A CLI and GUI tool for assisting in making worksheets and activities by making speeding up finding words and sentences in the classroom materials.",
+      "CLI and GUI versions of a dictionary for the Total English book series.",
   },
 
   marioReview: {
@@ -13,14 +13,14 @@ const projects = {
     thumb: "thumbs/marioquizgame.jpg",
     alt: "Total English Quiz Game",
     description:
-      "A turn-based quiz game using the material from the Total English book series.",
+      "A turn-based mario-themed quiz game using the material from the Total English book series.",
   },
 
   lyricScraper: {
     href: "https://github.com/wmcooper2/lyricscraping",
     thumb: "thumbs/lyricscraper.jpg",
     alt: "Lyrics Scraper",
-    description: "A simple GUI scraping tool for lyrics files from lyrics.com.",
+    description: "A GUI tool for tracking scraping progress from lyrics.com.",
   },
 
   lyricSearch: {
@@ -35,15 +35,15 @@ const projects = {
     href: "https://github.com/wmcooper2/billboardtop100",
     thumb: "thumbs/billboardscraper.jpg",
     alt: "Billboard Top 100 Scraper",
-    description: "A simple GUI for scraping popular music rankings.",
+    description:
+      "A GUI tool for tracking scraping progress from Billboard Top100.",
   },
 
   piCluster: {
     href: "https://github.com/wmcooper2/picluster",
     thumb: "thumbs/raspberry-pi-logo.jpg",
     alt: "Raspberry Pi Cluster",
-    description:
-      "A collection of code I use to control my Raspberry Pi cluster from my laptop.",
+    description: "Control a Raspberry Pi cluster from a laptop wirelessly.",
   },
 
   pictureCollector: {
@@ -51,21 +51,22 @@ const projects = {
     thumb: "thumbs/remote-picture-collector.jpg",
     alt: "Remote Picture Collector",
     description:
-      "A GUI tool for collecting images remotely from a webcam through SSH.",
+      "A GUI tool for collecting images wirelessly from a Raspberry Pi webcam using SSH.",
   },
 
   machineScripts: {
     href: "https://github.com/wmcooper2/machinesetup",
     thumb: "thumbs/machinesetupscripts.jpg",
     alt: "New Machine Setup Scripts",
-    description: "Various simple scripts for setting my machines.",
+    description: "Various scripts for setting up my machines.",
   },
 
   transitFares: {
     href: "https://github.com/wmcooper2/google-maps-transit-fares",
     thumb: "thumbs/transitfares.jpg",
     alt: "Transit Fares Collector",
-    description: "A CLI tool for scraping transit fares from Google Maps.",
+    description:
+      "A CLI tool for scraping transit fares from Google Maps using pyautogui.",
   },
 
   //JAVASCRIPT PROJECTS
@@ -75,7 +76,7 @@ const projects = {
     thumb: "thumbs/keelytribute.jpg",
     alt: "Tribute Page",
     description:
-      "A FCC project. I made a simple tribute page for my favorite (although fradulent) historical figure, John Keely.",
+      "A tribute page for my favorite (although fradulent) historical figure, John Keely. A FCC project.",
   },
 
   simpleSurvey: {
@@ -83,7 +84,7 @@ const projects = {
       "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/fcc-projects/survey/survey.html",
     thumb: "thumbs/survey.jpg",
     alt: "Simple Survey",
-    description: "A FCC project. A questionnaire form.",
+    description: "A questionnaire form. A FCC project.",
   },
 
   fakeProduct: {
@@ -91,7 +92,7 @@ const projects = {
       "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/fcc-projects/fake-product/product.html",
     thumb: "thumbs/product.jpg",
     alt: "Fake Product",
-    description: "A FCC project. A fictional product landing page.",
+    description: "A fictional product landing page. A FCC project.",
   },
 
   techDoc: {
@@ -99,23 +100,21 @@ const projects = {
       "https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/fcc-projects/technical-documentation/techdoc.html",
     thumb: "thumbs/techdoc.jpg",
     alt: "Tech Page",
-    description:
-      "A FCC project. A first attempt at a technical documentation page.",
+    description: "A technical documentation page. A FCC project.",
   },
 
   markdownPreview: {
     href: "https://wmcooper2.com/markdown-previewer/",
     thumb: "thumbs/markdownpreviewer.jpg",
     alt: "Markdown Preview",
-    description:
-      "A FCC project. A markdown previewer where you can see the changes as you make them.",
+    description: "A markdown previewer. A FCC project.",
   },
 
   quoteMachine: {
     href: "https://wmcooper2.com/random-quote-machine",
     thumb: "thumbs/quotemachine.jpg",
     alt: "Quote Machine",
-    description: "A FCC project. A random quote machine of 100 famous quotes.",
+    description: "A random quote machine of 100 famous quotes. A FCC project.",
   },
 
   drumMachine: {
@@ -123,28 +122,28 @@ const projects = {
     thumb: "thumbs/drummachine.jpg",
     alt: "Drum Machine",
     description:
-      "A FCC project. It plays sounds from Super Mario World when clicked or when a matching key is pressed.",
+      "Click or press the keys to play sounds from Super Mario World. A FCC project.",
   },
 
   calculator: {
     href: "https://codepen.io/wmcooper2/full/jOOWVVg",
     thumb: "thumbs/javascriptcalculator.jpg",
     alt: "Calculator",
-    description: "A FCC project. A calculator written in JavaScript.",
+    description: "A calculator written in JavaScript. A FCC project.",
   },
 
   pomodoroClock: {
     href: "https://codepen.io/wmcooper2/full/qBBqeLM",
     thumb: "thumbs/pomodoroclock.jpg",
     alt: "Pomodoro Clock",
-    description: "A FCC project. A pomodoro clock with a Yoshi's Island theme.",
+    description: "A Yoshi's Island themed pomodoro clock. A FCC project.",
   },
 
   barChart: {
     href: "https://codepen.io/wmcooper2/full/YzPromN",
     thumb: "thumbs/barchart.jpg",
     alt: "Bar Chart",
-    description: "A FCC project. This is an interactive barchart of US GDP.",
+    description: "An interactive barchart of US GDP. A FCC project.",
   },
 
   scatterPlot: {
@@ -152,7 +151,7 @@ const projects = {
     thumb: "thumbs/scatterplot.jpg",
     alt: "Scatter Plot",
     description:
-      "A FCC project. This is an interactive scatter plot of drug use in bike races.",
+      "An interactive scatter plot of drug use in bike races. A FCC project.",
   },
 
   heatMap: {
@@ -160,7 +159,7 @@ const projects = {
     thumb: "thumbs/heatmap.jpg",
     alt: "Heat Map",
     description:
-      "A FCC project. This is an interactive heat map of temperature variance.",
+      "An interactive heat map of temperature variance. A FCC project.",
   },
 
   choroplethMap: {
@@ -168,7 +167,7 @@ const projects = {
     thumb: "thumbs/choroplethmap.jpg",
     alt: "Choropleth Map",
     description:
-      "A FCC project. This is an interactive choropleth map of education in the US.",
+      "An interactive choropleth map of education in the US. A FCC project.",
   },
 
   treeMap: {
@@ -176,7 +175,7 @@ const projects = {
     thumb: "thumbs/treemap.jpg",
     alt: "Tree Map",
     description:
-      "A FCC project. This is an interactive tree map of kickstarter projects.",
+      "An interactive tree map of kickstarter projects. A FCC project.",
   },
 
   colorChangingTiles: {
@@ -184,22 +183,21 @@ const projects = {
     thumb: "thumbs/colorchangingtiles.jpg",
     alt: "Color Changing Tiles",
     description:
-      "A generic tool for tracking game state between teams of colors.",
+      "Generic tool for tracking game state between teams of colors.",
   },
 
   matchGame: {
     href: "https://teflassistant.com/match-game/#/",
     thumb: "thumbs/matchgame.jpg",
     alt: "Match Game",
-    description: "A match game for elementary school students.",
+    description: "Match-game for vocabulary building in elementary school.",
   },
 
   hidingSpotGame: {
     href: "https://teflassistant.com/hiding-spot-game/#/",
     thumb: "thumbs/hidingspotgame.jpg",
     alt: "Hiding Spot Game",
-    description:
-      "A 'find the hiding spot' game for elementary school students.",
+    description: "'Find the hiding spot' game for elementary school.",
   },
 
   teaSentences: {
@@ -207,35 +205,35 @@ const projects = {
     thumb: "thumbs/teasentence.jpg",
     alt: "Sentence Lookup",
     description:
-      "A tool to help you make sentences from the Total English Book Series.",
+      "Help for making sentences using only material from the Total English book series.",
   },
 
   teaDictionary: {
     href: "https://teflassistant.com/tea-dictionary/",
     thumb: "thumbs/teadictionary.jpg",
     alt: "Dictionary Lookup",
-    description: "A dictionary tool for the Total English Book Series.",
+    description: "Dictionary for the Total English book series.",
   },
 
   volunteers: {
     href: "https://teflassistant.com/volunteers/",
     thumb: "thumbs/volunteers.jpg",
     alt: "Volunteers",
-    description: "A tool to choose students at random.",
+    description: "Choose students at random.",
   },
 
   pokemonPronouns: {
     href: "https://teflassistant.com/pokemon-pronouns/",
     thumb: "thumbs/pokemonpronouns.jpg",
     alt: "Pokemon Pronouns",
-    description: "Use pokemon to help explain English pronouns.",
+    description: "Pikachu explain English pronouns to Charizard.",
   },
 
   tokyoPython: {
     href: "https://tokyopython.com/",
     thumb: "thumbs/tokyopython.jpg",
     alt: "Tokyo Python",
-    description: "A site about Python in Tokyo.",
+    description: "A work in progress about Python in Tokyo.",
   },
 
   teflAssistant: {

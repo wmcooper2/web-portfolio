@@ -11,8 +11,6 @@ const Project = (props) => {
           <figcaption>{alt}</figcaption>
         </figure>
         <ul>
-          {/* <li>{alt}</li> */}
-
           <li className="project-description">{description}</li>
         </ul>
       </a>
