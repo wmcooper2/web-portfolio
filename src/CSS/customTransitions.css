@@ -1,13 +1,13 @@
 .border-bottom-expand {
   width: 0%;
   height: 1vh;
-  border-radius: 50%;
-  border-top-width: 2vh;
-  border-top-style: solid;
-  border-top-color: black;
+  border-bottom-width: 1mm;
+  border-bottom-style: solid;
+  border-bottom-color: black;
   transition-duration: 400ms;
+  margin: auto auto;
 }
 
-nav ul li:hover .border-bottom-expand {
+li:hover .border-bottom-expand {
   width: 100%;
 }
