@@ -1,10 +1,9 @@
 import React from "react";
-// import Thumb from "./thumb";
 
 const Project = (props) => {
   const { href, thumb, alt, description } = props;
   return (
-    <div className="project">
+    <div className="project darkfocus">
       <a href={href}>
         <figure>
           <img className="thumb" src={thumb} alt={alt} />

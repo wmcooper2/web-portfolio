@@ -7,6 +7,7 @@
 @import "CSS/mobileL.css";
 @import "CSS/customAnimations.css";
 @import "CSS/customTransitions.css";
+@import "CSS/darkfocus.css";
 
 :root {
   --background-color: white;
@@ -15,12 +16,9 @@
   --width9: 90%;
   --max-width: 100%;
   --max-height: 100%;
-
-  --thumb-width: 20vw;
-
+  --thumb-width: 100%;
   --fade-delay: 500ms;
   --fade-duration: 1s;
-
   --very-very-small-font: 1vw;
   --very-small-font: 2vw;
   --small-font: 4vw;
@@ -87,29 +85,33 @@ ul li {
 .projectDisplay {
   display: grid;
   justify-content: center;
-  justify-items: center;
+  justify-items: stretch;
 }
 
 .project {
-  display: flex;
+  display: grid;
   flex-direction: column;
   text-align: center;
-  margin: var(--medium-margin);
+  justify-self: stretch;
+  /* margin: var(--medium-margin); */
   font-family: Arial;
+  /* padding: 1vw; */
   /* border: 1px solid black; */
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1); */
   /* background-color: rgba(0, 0, 0, 1); */
   /* border-collapse: collapse; */
 }
 
-.project,
+/* .project, */
 .thumb {
-  border-radius: 2%;
+  /* border-radius: 2%; */
+  width: var(--thumb-width);
+  height: auto;
 }
 
 .project-description {
-  padding: 5%;
-  text-align: left;
+  /* padding: 5%; */
+  text-align: center;
 }
 
 figcaption {
