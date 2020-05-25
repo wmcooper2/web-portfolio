@@ -1,0 +1,9 @@
+@media (min-width: 2560px) {
+  .projectDisplay {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .project {
+    width: 18vw;
+  }
+}

@@ -22,21 +22,21 @@ function App() {
         <div className="center-box fade-in">
           <nav>
             <ul>
-              <li id="home">
+              <li>
                 <NavLink to="/" className="navicon">
                   {homeLogo}
                 </NavLink>
                 <div className="border-bottom-expand"></div>
               </li>
 
-              <li id="javascript">
+              <li>
                 <NavLink to="/javascript" className="navicon">
                   {jsLogo}
                 </NavLink>
                 <div className="border-bottom-expand"></div>
               </li>
 
-              <li id="python">
+              <li>
                 <NavLink to="/python" className="navicon">
                   {pythonLogo}
                 </NavLink>

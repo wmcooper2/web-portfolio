@@ -55,7 +55,7 @@ const Home = () => {
       <p className="welcome-message">
         Check out my projects from the links above, or follow me down below.
       </p>
-      <ul>
+      <ul className="social-media-nav">
         <li>
           <SocialLink {...linkedIn} />
         </li>

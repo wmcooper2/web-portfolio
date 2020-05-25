@@ -1,8 +1,4 @@
-@media (min-width: 768px) and (max-width: 1023px) {
-  .center-box {
-    width: 90vw;
-  }
-
+@media (max-width: 2559px) {
   .projectDisplay {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -11,3 +7,4 @@
     width: 30vw;
   }
 }
+

@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+  .projectDisplay {
+    grid-template-columns: 1fr;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  span.welcome-title {
+    font-size: 3rem;
+  }
+}
