@@ -8,6 +8,7 @@
 @import "CSS/customAnimations.css";
 @import "CSS/customTransitions.css";
 @import "CSS/darkfocus.css";
+@import "CSS/simplefocus.css";
 
 :root {
   --background-color: white;
@@ -93,24 +94,15 @@ ul li {
   flex-direction: column;
   text-align: center;
   justify-self: stretch;
-  /* margin: var(--medium-margin); */
   font-family: Arial;
-  /* padding: 1vw; */
-  /* border: 1px solid black; */
-  /* box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1); */
-  /* background-color: rgba(0, 0, 0, 1); */
-  /* border-collapse: collapse; */
 }
 
-/* .project, */
 .thumb {
-  /* border-radius: 2%; */
   width: var(--thumb-width);
   height: auto;
 }
 
 .project-description {
-  /* padding: 5%; */
   text-align: center;
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 const Project = (props) => {
   const { href, thumb, alt, description } = props;
   return (
-    <div className="project darkfocus">
+    <div className="project simplefocus">
       <a href={href}>
         <figure>
           <img className="thumb" src={thumb} alt={alt} />

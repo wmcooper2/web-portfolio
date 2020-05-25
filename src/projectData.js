@@ -204,8 +204,7 @@ const projects = {
     href: "https://teflassistant.com/color-changing-tiles/",
     thumb: "thumbs/color-changing-tiles.jpg",
     alt: "Color Changing Tiles",
-    description:
-      "Generic tool for tracking game state between teams of colors.",
+    description: "Tool for tracking game state between teams of colors.",
     skills: ["HTML", "CSS"],
   },
 
@@ -229,8 +228,7 @@ const projects = {
     href: "https://teflassistant.com/total-english-sentence-js/",
     thumb: "thumbs/total-english-sentence-js.jpg",
     alt: "Total English Sentence",
-    description:
-      "Help for making sentences using only material from the Total English book series.",
+    description: "Make sentences using material from the Total English books.",
     skills: ["HTML", "CSS"],
   },
 

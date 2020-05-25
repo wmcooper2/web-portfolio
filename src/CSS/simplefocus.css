@@ -1,0 +1,8 @@
+.simplefocus {
+  /* border-collapse: collapse; */
+}
+
+.simplefocus:hover {
+  /* border: 1px solid black; */
+  filter: brightness(0.9);
+}
