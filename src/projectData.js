@@ -79,13 +79,21 @@ const projects = {
   },
 
   //JAVASCRIPT PROJECTS
-  keeylyTribute: {
+  keelyTribute: {
     href: "https://wmcooper2.com/tribute-page",
     thumb: "thumbs/tribute-page.jpg",
     alt: "Tribute Page",
     description:
       "A tribute page for my favorite (although fradulent) historical figure, John Keely. A FCC project.",
     skills: ["HTML", "CSS"],
+  },
+
+  keelyTributeV2: {
+    href: "https://wmcooper2.com/tribute-page-v2",
+    thumb: "thumbs/tribute-page-v2.jpg",
+    alt: "Tribute Page",
+    description: "An upgraded version of my original tribute page.",
+    skills: ["HTML", "CSS", "JavaScript", "React"],
   },
 
   simpleSurvey: {

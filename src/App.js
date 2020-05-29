@@ -52,6 +52,7 @@ function App() {
 
             <Route path="/javascript">
               <div className="projectDisplay">
+                <Project {...projects.keelyTributeV2} />
                 <Project {...projects.webPortfolio} />
                 <Project {...projects.simpleResume} />
                 <Project {...projects.teflAssistant} />
@@ -76,7 +77,7 @@ function App() {
                 <Project {...projects.techDoc} />
                 <Project {...projects.fakeProduct} />
                 <Project {...projects.simpleSurvey} />
-                <Project {...projects.keeylyTribute} />
+                <Project {...projects.keelyTribute} />
               </div>
             </Route>
 
