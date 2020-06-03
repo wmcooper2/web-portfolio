@@ -91,7 +91,7 @@ const projects = {
   keelyTributeV2: {
     href: "https://wmcooper2.com/tribute-page-v2",
     thumb: "thumbs/tribute-page-v2.jpg",
-    alt: "Tribute Page",
+    alt: "Upgraded Tribute Page",
     description: "An upgraded version of my original tribute page.",
     skills: ["HTML", "CSS", "JavaScript", "React"],
   },
@@ -103,6 +103,15 @@ const projects = {
     alt: "Simple Survey",
     description: "A questionnaire form. A FCC project.",
     skills: ["HTML", "CSS"],
+  },
+
+  simpleSurveyV2: {
+    href: "https://wmcooper2.com/simple-survey-v2",
+    thumb: "thumbs/simple-survey-v2.jpg",
+    alt: "Upgraded Simple Survey",
+    description:
+      "An upgraded version of my original survey page. Now, with Mongo DB.",
+    skills: ["HTML", "CSS", "JavaScript", "MongoDB", "Pug", "Express"],
   },
 
   fakeProduct: {
@@ -260,7 +269,7 @@ const projects = {
     href: "https://teflassistant.com/pokemon-pronouns/",
     thumb: "thumbs/pokemon-pronouns.jpg",
     alt: "Pokemon Pronouns",
-    description: "Pikachu explains English pronouns to Charizard.",
+    description: "Pikachu explains pronouns to Charizard.",
     skills: ["HTML", "CSS"],
   },
 
