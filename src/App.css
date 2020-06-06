@@ -3,8 +3,6 @@
 @import "CSS/mobilescreens.css";
 @import "CSS/customAnimations.css";
 @import "CSS/customTransitions.css";
-/* @import "CSS/darkfocus.css"; */
-@import "CSS/simplefocus.css";
 
 :root {
   --backgroundColor: white;
@@ -50,6 +48,10 @@ nav {
   margin-bottom: 2rem;
 }
 
+p {
+  /* margin-top: 0; */
+}
+
 ul {
   display: flex;
   justify-content: space-evenly;
@@ -69,12 +71,19 @@ ul li {
 ul.social-media-nav {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
+}
+
+.about-me {
+  /* text-align: justify; */
+  text-align: center;
+  max-width: 180mm;
+  font-family: CenturyGothic, AppleGothic, sans-serif;
 }
 
 .App {
   display: flex;
   margin: auto auto;
-  /* max-width: 2000px; */
   background-color: var(--backgroundColor);
   width: 100vw;
   height: 100vh;
@@ -104,6 +113,28 @@ ul.social-media-nav {
   text-align: center;
 }
 
+div.project:hover {
+  filter: opacity(0.7);
+  /* filter: grayscale(100%); */
+  /* outline: 2px solid black; */
+}
+
+.project-name {
+  font-size: 1.4rem;
+}
+
+.project-tech {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.project-description {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0 2rem 1rem 2rem;
+}
+
 .projectDisplay {
   display: grid;
   justify-content: center;
@@ -117,16 +148,9 @@ ul.social-media-nav {
   text-align: center;
   justify-self: stretch;
   font-family: Arial;
-}
-
-.project-description {
-  text-align: center;
-  font-size: 1rem;
-  padding: 0 2rem 1rem 2rem;
-}
-
-.project {
   font-size: var(--smallFont);
+  transition-duration: 400ms;
+  outline: 1px solid black;
 }
 
 .social-media {
@@ -135,14 +159,20 @@ ul.social-media-nav {
 }
 
 .welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Playfair Display SC", serif;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .welcome-title {
+  margin-top: 0;
   font-size: var(--mediumFont);
 }
 
 .welcome-message {
   font-size: var(--verySmallFont);
+  max-width: 180mm;
+  text-align: center;
 }

@@ -4,12 +4,13 @@ import "./projectData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faPython, faJs } from "@fortawesome/free-brands-svg-icons";
-import Project from "./components/project";
+// import Project from "./components/project";
+import Project from "./components/project2";
 import projects from "./projectData";
 import Err404 from "./components/err404";
 import Home from "./components/home";
 
-import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
+import { HashRouter, Switch, Route, NavLink } from "react-router-dom";
 
 const homeLogo = <FontAwesomeIcon icon={faHome} id="homeLogo" />;
 const pythonLogo = <FontAwesomeIcon icon={faPython} id="pythonLogo" />;
@@ -17,7 +18,7 @@ const jsLogo = <FontAwesomeIcon icon={faJs} id="javascriptLogo" />;
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <div className="center-box fade-in">
           <nav>
@@ -103,7 +104,7 @@ function App() {
           </Switch>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

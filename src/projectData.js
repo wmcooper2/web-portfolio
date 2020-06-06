@@ -7,6 +7,7 @@ const projects = {
     description:
       "CLI and GUI versions of a dictionary for the Total English book series.",
     skills: ["Python"],
+    github: null,
   },
 
   marioReview: {
@@ -16,6 +17,7 @@ const projects = {
     description:
       "A turn-based mario-themed quiz game using the material from the Total English book series.",
     skills: ["Python"],
+    github: null,
   },
 
   lyricScraper: {
@@ -24,6 +26,7 @@ const projects = {
     alt: "Lyrics Scraper",
     description: "A GUI tool for tracking scraping progress from lyrics.com.",
     skills: ["Python"],
+    github: null,
   },
 
   lyricSearch: {
@@ -33,6 +36,7 @@ const projects = {
     description:
       "A CLI tool to search through the lyrics scraped from lyrics.com.",
     skills: ["Python"],
+    github: null,
   },
 
   billboardScraper: {
@@ -42,6 +46,7 @@ const projects = {
     description:
       "A GUI tool for tracking scraping progress from Billboard Top100.",
     skills: ["Python"],
+    github: null,
   },
 
   piCluster: {
@@ -50,6 +55,7 @@ const projects = {
     alt: "Raspberry Pi Cluster",
     description: "Control a Raspberry Pi cluster from a laptop wirelessly.",
     skills: ["Python"],
+    github: null,
   },
 
   pictureCollector: {
@@ -59,6 +65,7 @@ const projects = {
     description:
       "A GUI tool for collecting images wirelessly from a Raspberry Pi webcam using SSH.",
     skills: ["Python"],
+    github: null,
   },
 
   machineScripts: {
@@ -67,6 +74,7 @@ const projects = {
     alt: "New Machine Setup Scripts",
     description: "Various scripts for setting up my machines.",
     skills: ["Python"],
+    github: null,
   },
 
   transitFares: {
@@ -76,6 +84,7 @@ const projects = {
     description:
       "A CLI tool for scraping transit fares from Google Maps using pyautogui.",
     skills: ["Python"],
+    github: null,
   },
 
   //JAVASCRIPT PROJECTS
@@ -86,6 +95,7 @@ const projects = {
     description:
       "A tribute page for my favorite (although fradulent) historical figure, John Keely. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: "https://github.com/wmcooper2/fcc-tribute-page",
   },
 
   keelyTributeV2: {
@@ -94,6 +104,7 @@ const projects = {
     alt: "Upgraded Tribute Page",
     description: "An upgraded version of my original tribute page.",
     skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: null,
   },
 
   simpleSurvey: {
@@ -103,6 +114,7 @@ const projects = {
     alt: "Simple Survey",
     description: "A questionnaire form. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   simpleSurveyV2: {
@@ -112,6 +124,7 @@ const projects = {
     description:
       "An upgraded version of my original survey page. Now, with Mongo DB.",
     skills: ["HTML", "CSS", "JavaScript", "MongoDB", "Pug", "Express"],
+    github: null,
   },
 
   fakeProduct: {
@@ -121,6 +134,7 @@ const projects = {
     alt: "Fake Product",
     description: "A fictional product landing page. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   techDoc: {
@@ -130,6 +144,7 @@ const projects = {
     alt: "Tech Page",
     description: "A technical documentation page. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   markdownPreview: {
@@ -138,6 +153,7 @@ const projects = {
     alt: "Markdown Preview",
     description: "A markdown previewer. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   quoteMachine: {
@@ -146,6 +162,7 @@ const projects = {
     alt: "Random Quote Machine",
     description: "A random quote machine of 100 famous quotes. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   drumMachine: {
@@ -155,6 +172,7 @@ const projects = {
     description:
       "Click or press the keys to play sounds from Super Mario World. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   calculator: {
@@ -163,6 +181,7 @@ const projects = {
     alt: "Calculator",
     description: "A calculator written in JavaScript. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   pomodoroClock: {
@@ -171,6 +190,7 @@ const projects = {
     alt: "Pomodoro Clock",
     description: "A Yoshi's Island themed pomodoro clock. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   barChart: {
@@ -179,6 +199,7 @@ const projects = {
     alt: "Bar Chart",
     description: "An interactive barchart of US GDP. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   scatterPlot: {
@@ -188,6 +209,7 @@ const projects = {
     description:
       "An interactive scatter plot of drug use in bike races. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   heatMap: {
@@ -197,6 +219,7 @@ const projects = {
     description:
       "An interactive heat map of temperature variance. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   choroplethMap: {
@@ -206,6 +229,7 @@ const projects = {
     description:
       "An interactive choropleth map of education in the US. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   treeMap: {
@@ -215,6 +239,7 @@ const projects = {
     description:
       "An interactive tree map of kickstarter projects. A FCC project.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   colorChangingTiles: {
@@ -223,6 +248,7 @@ const projects = {
     alt: "Color Changing Tiles",
     description: "Tool for tracking game state between teams of colors.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   matchGame: {
@@ -231,6 +257,7 @@ const projects = {
     alt: "Match Game",
     description: "Match-game for vocabulary building in elementary school.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   hidingSpotGame: {
@@ -239,6 +266,7 @@ const projects = {
     alt: "Hiding Spot Game",
     description: "'Find the hiding spot' game for elementary school.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   teaSentences: {
@@ -247,6 +275,7 @@ const projects = {
     alt: "Total English Sentence",
     description: "Make sentences using material from the Total English books.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   teaDictionary: {
@@ -255,6 +284,7 @@ const projects = {
     alt: "Total English Dictionary",
     description: "Dictionary for the Total English book series.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   volunteers: {
@@ -263,6 +293,7 @@ const projects = {
     alt: "Classroom Volunteers",
     description: "Choose students at random.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   pokemonPronouns: {
@@ -271,6 +302,7 @@ const projects = {
     alt: "Pokemon Pronouns",
     description: "Pikachu explains pronouns to Charizard.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   tokyoPython: {
@@ -279,6 +311,7 @@ const projects = {
     alt: "Tokyo Python",
     description: "A work in progress about Python in Tokyo.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   teflAssistant: {
@@ -287,6 +320,7 @@ const projects = {
     alt: "TEFL Assistant",
     description: "A site for TEFL teachers.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   simpleResume: {
@@ -295,6 +329,7 @@ const projects = {
     alt: "Web Resume",
     description: "My web resume in English and Japanese.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 
   webPortfolio: {
@@ -303,6 +338,7 @@ const projects = {
     alt: "Web Portfolio",
     description: "This web portfolio.",
     skills: ["HTML", "CSS"],
+    github: null,
   },
 };
 
