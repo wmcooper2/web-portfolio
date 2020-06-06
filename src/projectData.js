@@ -6,8 +6,8 @@ const projects = {
     alt: "Total English Dictionary",
     description:
       "CLI and GUI versions of a dictionary for the Total English book series.",
-    skills: ["Python"],
-    github: null,
+    skills: ["Python", "Tkinter"],
+    github: "https://github.com/wmcooper2/TotalEnglishAssistant",
   },
 
   marioReview: {
@@ -16,8 +16,8 @@ const projects = {
     alt: "Total English Quiz Game",
     description:
       "A turn-based mario-themed quiz game using the material from the Total English book series.",
-    skills: ["Python"],
-    github: null,
+    skills: ["Python", "Pyglet", "PIL"],
+    github: "https://github.com/wmcooper2/TotalEnglishReviewGame",
   },
 
   lyricScraper: {
@@ -25,8 +25,8 @@ const projects = {
     thumb: "thumbs/lyricscraper.jpg",
     alt: "Lyrics Scraper",
     description: "A GUI tool for tracking scraping progress from lyrics.com.",
-    skills: ["Python"],
-    github: null,
+    skills: ["Python", "Tkinter", "Beautiful Soup"],
+    github: "https://github.com/wmcooper2/lyricscraping",
   },
 
   lyricSearch: {
@@ -36,7 +36,7 @@ const projects = {
     description:
       "A CLI tool to search through the lyrics scraped from lyrics.com.",
     skills: ["Python"],
-    github: null,
+    github: "https://github.com/wmcooper2/lyricsearch",
   },
 
   billboardScraper: {
@@ -45,8 +45,8 @@ const projects = {
     alt: "Billboard Top 100 Scraper",
     description:
       "A GUI tool for tracking scraping progress from Billboard Top100.",
-    skills: ["Python"],
-    github: null,
+    skills: ["Python", "Tkinter", "Beautiful Soup"],
+    github: "https://github.com/wmcooper2/billboard-top-100-scraper",
   },
 
   piCluster: {
@@ -55,7 +55,7 @@ const projects = {
     alt: "Raspberry Pi Cluster",
     description: "Control a Raspberry Pi cluster from a laptop wirelessly.",
     skills: ["Python"],
-    github: null,
+    github: "https://github.com/wmcooper2/picluster",
   },
 
   pictureCollector: {
@@ -65,7 +65,7 @@ const projects = {
     description:
       "A GUI tool for collecting images wirelessly from a Raspberry Pi webcam using SSH.",
     skills: ["Python"],
-    github: null,
+    github: "https://github.com/wmcooper2/picturecollector",
   },
 
   machineScripts: {
@@ -73,8 +73,8 @@ const projects = {
     thumb: "thumbs/machinesetupscripts.jpg",
     alt: "New Machine Setup Scripts",
     description: "Various scripts for setting up my machines.",
-    skills: ["Python"],
-    github: null,
+    skills: ["Python", "Bash"],
+    github: "https://github.com/wmcooper2/scripts",
   },
 
   transitFares: {
@@ -83,8 +83,8 @@ const projects = {
     alt: "Transit Fares Collector",
     description:
       "A CLI tool for scraping transit fares from Google Maps using pyautogui.",
-    skills: ["Python"],
-    github: null,
+    skills: ["Python", "PyAutoGui"],
+    github: "https://github.com/wmcooper2/google-maps-transit-fares",
   },
 
   //JAVASCRIPT PROJECTS
@@ -104,7 +104,7 @@ const projects = {
     alt: "Upgraded Tribute Page",
     description: "An upgraded version of my original tribute page.",
     skills: ["HTML", "CSS", "JavaScript", "React"],
-    github: null,
+    github: "https://github.com/wmcooper2/tribute-page-v2",
   },
 
   simpleSurvey: {
@@ -124,7 +124,7 @@ const projects = {
     description:
       "An upgraded version of my original survey page. Now, with Mongo DB.",
     skills: ["HTML", "CSS", "JavaScript", "MongoDB", "Pug", "Express"],
-    github: null,
+    github: "https://github.com/wmcooper2/simple-survey-v2",
   },
 
   fakeProduct: {
@@ -143,7 +143,7 @@ const projects = {
     thumb: "thumbs/techdoc.jpg",
     alt: "Tech Page",
     description: "A technical documentation page. A FCC project.",
-    skills: ["HTML", "CSS"],
+    skills: ["HTML", "CSS", "JavaScript"],
     github: null,
   },
 
@@ -152,8 +152,8 @@ const projects = {
     thumb: "thumbs/markdown-preview.jpg",
     alt: "Markdown Preview",
     description: "A markdown previewer. A FCC project.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/wmcooper2/fcc-markdown-preview",
   },
 
   quoteMachine: {
@@ -161,8 +161,8 @@ const projects = {
     thumb: "thumbs/random-quote-machine.jpg",
     alt: "Random Quote Machine",
     description: "A random quote machine of 100 famous quotes. A FCC project.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/wmcooper2/fcc-random-quote-machine",
   },
 
   drumMachine: {
@@ -171,8 +171,8 @@ const projects = {
     alt: "Drum Machine",
     description:
       "Click or press the keys to play sounds from Super Mario World. A FCC project.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/wmcooper2/fcc-drum-machine",
   },
 
   calculator: {
@@ -180,8 +180,8 @@ const projects = {
     thumb: "thumbs/javascript-calculator.jpg",
     alt: "Calculator",
     description: "A calculator written in JavaScript. A FCC project.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/wmcooper2/fcc-javascript-calculator",
   },
 
   pomodoroClock: {
@@ -189,8 +189,8 @@ const projects = {
     thumb: "thumbs/pomodoro-clock.jpg",
     alt: "Pomodoro Clock",
     description: "A Yoshi's Island themed pomodoro clock. A FCC project.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/wmcooper2/fcc-pomodoro-clock",
   },
 
   barChart: {
@@ -198,7 +198,7 @@ const projects = {
     thumb: "thumbs/bar-chart.jpg",
     alt: "Bar Chart",
     description: "An interactive barchart of US GDP. A FCC project.",
-    skills: ["HTML", "CSS"],
+    skills: ["HTML", "CSS", "JavaScript", "D3"],
     github: null,
   },
 
@@ -208,7 +208,7 @@ const projects = {
     alt: "Scatter Plot",
     description:
       "An interactive scatter plot of drug use in bike races. A FCC project.",
-    skills: ["HTML", "CSS"],
+    skills: ["HTML", "CSS", "JavaScript", "D3"],
     github: null,
   },
 
@@ -218,7 +218,7 @@ const projects = {
     alt: "Heat Map",
     description:
       "An interactive heat map of temperature variance. A FCC project.",
-    skills: ["HTML", "CSS"],
+    skills: ["HTML", "CSS", "JavaScript", "D3"],
     github: null,
   },
 
@@ -228,7 +228,7 @@ const projects = {
     alt: "Choropleth Map",
     description:
       "An interactive choropleth map of education in the US. A FCC project.",
-    skills: ["HTML", "CSS"],
+    skills: ["HTML", "CSS", "JavaScript", "D3"],
     github: null,
   },
 
@@ -238,7 +238,7 @@ const projects = {
     alt: "Tree Map",
     description:
       "An interactive tree map of kickstarter projects. A FCC project.",
-    skills: ["HTML", "CSS"],
+    skills: ["HTML", "CSS", "JavaScript", "D3"],
     github: null,
   },
 
@@ -247,8 +247,8 @@ const projects = {
     thumb: "thumbs/color-changing-tiles.jpg",
     alt: "Color Changing Tiles",
     description: "Tool for tracking game state between teams of colors.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/wmcooper2/color-changing-tiles",
   },
 
   matchGame: {
@@ -256,8 +256,8 @@ const projects = {
     thumb: "thumbs/match-game.jpg",
     alt: "Match Game",
     description: "Match-game for vocabulary building in elementary school.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/wmcooper2/match-game",
   },
 
   hidingSpotGame: {
@@ -265,8 +265,8 @@ const projects = {
     thumb: "thumbs/hiding-spot-game.jpg",
     alt: "Hiding Spot Game",
     description: "'Find the hiding spot' game for elementary school.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/wmcooper2/hiding-spot-game",
   },
 
   teaSentences: {
@@ -274,8 +274,8 @@ const projects = {
     thumb: "thumbs/total-english-sentence-js.jpg",
     alt: "Total English Sentence",
     description: "Make sentences using material from the Total English books.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/wmcooper2/total-english-sentence-js",
   },
 
   teaDictionary: {
@@ -283,8 +283,8 @@ const projects = {
     thumb: "thumbs/total-english-dictionary-js.jpg",
     alt: "Total English Dictionary",
     description: "Dictionary for the Total English book series.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/wmcooper2/total-english-dictionary-js",
   },
 
   volunteers: {
@@ -292,8 +292,8 @@ const projects = {
     thumb: "thumbs/classroom-volunteers.jpg",
     alt: "Classroom Volunteers",
     description: "Choose students at random.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/wmcooper2/classroom-volunteers",
   },
 
   pokemonPronouns: {
@@ -301,8 +301,8 @@ const projects = {
     thumb: "thumbs/pokemon-pronouns.jpg",
     alt: "Pokemon Pronouns",
     description: "Pikachu explains pronouns to Charizard.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/wmcooper2/pokemon-pronouns",
   },
 
   tokyoPython: {
@@ -310,8 +310,8 @@ const projects = {
     thumb: "thumbs/tokyo-python.jpg",
     alt: "Tokyo Python",
     description: "A work in progress about Python in Tokyo.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/wmcooper2/tokyo-python",
   },
 
   teflAssistant: {
@@ -320,16 +320,16 @@ const projects = {
     alt: "TEFL Assistant",
     description: "A site for TEFL teachers.",
     skills: ["HTML", "CSS"],
-    github: null,
+    github: "https://github.com/wmcooper2/tefl-assistant",
   },
 
   simpleResume: {
     href: "https://wmcooper2.com/web-resume",
     thumb: "thumbs/web-resume.jpg",
     alt: "Web Resume",
-    description: "My web resume in English and Japanese.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    description: "My web resume.",
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/wmcooper2/web-resume",
   },
 
   webPortfolio: {
@@ -337,8 +337,16 @@ const projects = {
     thumb: "thumbs/web-portfolio.jpg",
     alt: "Web Portfolio",
     description: "This web portfolio.",
-    skills: ["HTML", "CSS"],
-    github: null,
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+    ],
+    github: "https://github.com/wmcooper2/web-portfolio",
   },
 };
 
