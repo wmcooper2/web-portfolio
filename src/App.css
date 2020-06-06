@@ -13,6 +13,7 @@
   --smallFont: 0.5rem;
   --mediumFont: 5rem;
   --smallMargin: 3%;
+  font-family: CenturyGothic, AppleGothic, sans-serif;
   font-size: 5mm;
 }
 
@@ -42,14 +43,11 @@ figcaption {
 
 img {
   width: 100%;
+  transition-duration: 400ms;
 }
 
 nav {
   margin-bottom: 2rem;
-}
-
-p {
-  /* margin-top: 0; */
 }
 
 ul {
@@ -75,8 +73,8 @@ ul.social-media-nav {
 }
 
 .about-me {
-  /* text-align: justify; */
-  text-align: center;
+  text-align: justify;
+  /* text-align: center; */
   max-width: 180mm;
   font-family: CenturyGothic, AppleGothic, sans-serif;
 }
@@ -113,7 +111,7 @@ ul.social-media-nav {
   text-align: center;
 }
 
-div.project:hover {
+div.project:hover img {
   filter: opacity(0.7);
   /* filter: grayscale(100%); */
   /* outline: 2px solid black; */
@@ -121,15 +119,18 @@ div.project:hover {
 
 .project-name {
   font-size: 1.4rem;
+  font-family: CenturyGothic, AppleGothic, sans-serif;
 }
 
 .project-tech {
   display: flex;
   margin-bottom: 5%;
+  font-family: "Playfair Display SC", serif;
 }
 
 .project-description {
   text-align: center;
+  font-family: CenturyGothic, AppleGothic, sans-serif;
   font-size: 1rem;
   padding: 0 2rem 1rem 2rem;
 }
@@ -148,7 +149,6 @@ div.project:hover {
   justify-self: stretch;
   font-family: Arial;
   font-size: var(--smallFont);
-  transition-duration: 400ms;
   outline: 1px solid black;
 }
 
@@ -166,7 +166,7 @@ div.project:hover {
 }
 
 .welcome-title {
-  margin-top: 0;
+  margin: 0 0;
   font-size: var(--mediumFont);
 }
 

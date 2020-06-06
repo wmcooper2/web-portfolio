@@ -1,4 +1,8 @@
 @media (max-width: 767px) {
+  h1.welcome-title {
+    font-size: 3rem;
+  }
+
   .projectDisplay {
     grid-template-columns: 1fr;
   }

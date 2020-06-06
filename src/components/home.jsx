@@ -31,15 +31,15 @@ const gitHub = {
 };
 
 // const codePen = {
-  // logo: SocialNavLink(faCodepen, "codepen"),
-  // alt: "Codepen",
-  // href: "https://codepen.io/wmcooper2",
+// logo: SocialNavLink(faCodepen, "codepen"),
+// alt: "Codepen",
+// href: "https://codepen.io/wmcooper2",
 // };
 
 // const freeCodeCamp = {
-  // logo: SocialNavLink(faFreeCodeCamp, "freecodecamp"),
-  // alt: "Free Code Camp",
-  // href: "https://www.freecodecamp.org/wmcooper2",
+// logo: SocialNavLink(faFreeCodeCamp, "freecodecamp"),
+// alt: "Free Code Camp",
+// href: "https://www.freecodecamp.org/wmcooper2",
 // };
 
 const meetup = {
@@ -55,8 +55,8 @@ const Home = () => {
       <p className="about-me">
         I am a strong generalist and would be a good addition to a team who
         wants to bridge the gap between specialties. I primarily make web apps
-        using MongoDB, Express, React and Node, and backend programs with Python
-        and Bash.
+        using MongoDB, Express, React and Node, and backend programs with
+        Python.
       </p>
       <p className="welcome-message">
         See my projects from the links above, <br /> or follow me down below.
