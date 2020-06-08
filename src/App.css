@@ -41,6 +41,11 @@ figcaption {
   font-size: 1.5rem;
 }
 
+/* for padding at bottom */
+footer {
+  height: 5vh;
+}
+
 img {
   width: 100%;
   transition-duration: 400ms;
@@ -115,6 +120,11 @@ div.project:hover img {
   filter: opacity(0.7);
   /* filter: grayscale(100%); */
   /* outline: 2px solid black; */
+}
+
+.javascript-project-description,
+.python-project-description {
+  text-align: center;
 }
 
 .project-name {

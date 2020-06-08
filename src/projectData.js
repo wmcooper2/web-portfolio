@@ -123,7 +123,7 @@ const projects = {
     alt: "Upgraded Simple Survey",
     description:
       "An upgraded version of my original survey page. Now, with Mongo DB.",
-    skills: ["HTML", "CSS", "JavaScript", "MongoDB", "Pug", "Express"],
+    skills: ["CSS", "JavaScript", "MongoDB", "Pug", "Express"],
     github: "https://github.com/wmcooper2/simple-survey-v2",
   },
 

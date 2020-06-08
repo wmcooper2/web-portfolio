@@ -52,48 +52,59 @@ function App() {
             </Route>
 
             <Route path="/javascript">
-              <div className="projectDisplay">
-                <Project {...projects.webPortfolio} />
-                <Project {...projects.simpleResume} />
-                <Project {...projects.simpleSurveyV2} />
-                <Project {...projects.keelyTributeV2} />
-                <Project {...projects.teflAssistant} />
-                <Project {...projects.tokyoPython} />
-                <Project {...projects.pokemonPronouns} />
-                <Project {...projects.volunteers} />
-                <Project {...projects.teaDictionary} />
-                <Project {...projects.teaSentences} />
-                <Project {...projects.hidingSpotGame} />
-                <Project {...projects.matchGame} />
-                <Project {...projects.colorChangingTiles} />
-                <Project {...projects.treeMap} />
-                <Project {...projects.choroplethMap} />
-                <Project {...projects.heatMap} />
-                <Project {...projects.scatterPlot} />
-                <Project {...projects.barChart} />
-                <Project {...projects.pomodoroClock} />
-                <Project {...projects.calculator} />
-                <Project {...projects.drumMachine} />
-                <Project {...projects.quoteMachine} />
-                <Project {...projects.markdownPreview} />
-                <Project {...projects.techDoc} />
-                <Project {...projects.fakeProduct} />
-                <Project {...projects.simpleSurvey} />
-                <Project {...projects.keelyTribute} />
+              <div>
+                <p className="javascript-project-description">
+                  Click on the images to view the live app, or the GitHub icon
+                  to see the repo.
+                </p>
+                <div className="projectDisplay">
+                  <Project {...projects.webPortfolio} />
+                  <Project {...projects.simpleResume} />
+                  <Project {...projects.simpleSurveyV2} />
+                  <Project {...projects.keelyTributeV2} />
+                  <Project {...projects.teflAssistant} />
+                  <Project {...projects.tokyoPython} />
+                  <Project {...projects.pokemonPronouns} />
+                  <Project {...projects.volunteers} />
+                  <Project {...projects.teaDictionary} />
+                  <Project {...projects.teaSentences} />
+                  <Project {...projects.hidingSpotGame} />
+                  <Project {...projects.matchGame} />
+                  <Project {...projects.colorChangingTiles} />
+                  <Project {...projects.treeMap} />
+                  <Project {...projects.choroplethMap} />
+                  <Project {...projects.heatMap} />
+                  <Project {...projects.scatterPlot} />
+                  <Project {...projects.barChart} />
+                  <Project {...projects.pomodoroClock} />
+                  <Project {...projects.calculator} />
+                  <Project {...projects.drumMachine} />
+                  <Project {...projects.quoteMachine} />
+                  <Project {...projects.markdownPreview} />
+                  <Project {...projects.techDoc} />
+                  <Project {...projects.fakeProduct} />
+                  <Project {...projects.simpleSurvey} />
+                  <Project {...projects.keelyTribute} />
+                </div>
               </div>
             </Route>
 
             <Route path="/python">
-              <div className="projectDisplay">
-                <Project {...projects.transitFares} />
-                <Project {...projects.marioReview} />
-                <Project {...projects.lyricScraper} />
-                <Project {...projects.billboardScraper} />
-                <Project {...projects.pythonTEA} />
-                <Project {...projects.lyricSearch} />
-                <Project {...projects.piCluster} />
-                <Project {...projects.pictureCollector} />
-                <Project {...projects.machineScripts} />
+              <div>
+                <p className="javascript-project-description">
+                  Click on the images or the GitHub icon to see the repo.
+                </p>
+                <div className="projectDisplay">
+                  <Project {...projects.transitFares} />
+                  <Project {...projects.marioReview} />
+                  <Project {...projects.lyricScraper} />
+                  <Project {...projects.billboardScraper} />
+                  <Project {...projects.pythonTEA} />
+                  <Project {...projects.lyricSearch} />
+                  <Project {...projects.piCluster} />
+                  <Project {...projects.pictureCollector} />
+                  <Project {...projects.machineScripts} />
+                </div>
               </div>
             </Route>
             <Route path="*">
@@ -102,6 +113,7 @@ function App() {
               </div>
             </Route>
           </Switch>
+          <footer></footer>
         </div>
       </div>
     </HashRouter>
