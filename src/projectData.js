@@ -306,7 +306,7 @@ const projects = {
   },
 
   tokyoPython: {
-    href: "https://tokyopython.com/",
+    href: "https://wmcooper2.com/tokyo-python/",
     thumb: "thumbs/tokyo-python.jpg",
     alt: "Tokyo Python",
     description: "A work in progress about Python in Tokyo.",
