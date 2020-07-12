@@ -88,6 +88,16 @@ const projects = {
   },
 
   //JAVASCRIPT PROJECTS
+  issueTracker: {
+    href: "https://wmcooper2.com/issue-tracker",
+    thumb: "thumbs/issue-tracker.jpg",
+    alt: "Issue Tracker",
+    description:
+      "An issue tracking app (current project, in progress).",
+    skills: ["HTML", "JavaScript", "React", "Redux", "MongoDB", "Express", "Node"],
+    github: "https://github.com/wmcooper2/issue-tracker",
+  },
+
   keelyTribute: {
     href: "https://wmcooper2.com/tribute-page",
     thumb: "thumbs/tribute-page.jpg",
@@ -243,7 +253,7 @@ const projects = {
   },
 
   colorChangingTiles: {
-    href: "https://teflassistant.com/color-changing-tiles/",
+    href: "https://wmcooper2.com/color-changing-tiles/",
     thumb: "thumbs/color-changing-tiles.jpg",
     alt: "Color Changing Tiles",
     description: "Tool for tracking game state between teams of colors.",
@@ -252,7 +262,7 @@ const projects = {
   },
 
   matchGame: {
-    href: "https://teflassistant.com/match-game/",
+    href: "https://wmcooper2.com/match-game/",
     thumb: "thumbs/match-game.jpg",
     alt: "Match Game",
     description: "Match-game for vocabulary building in elementary school.",
@@ -261,7 +271,7 @@ const projects = {
   },
 
   hidingSpotGame: {
-    href: "https://teflassistant.com/hiding-spot-game/",
+    href: "https://wmcooper2.com/hiding-spot-game/",
     thumb: "thumbs/hiding-spot-game.jpg",
     alt: "Hiding Spot Game",
     description: "'Find the hiding spot' game for elementary school.",
@@ -270,7 +280,7 @@ const projects = {
   },
 
   teaSentences: {
-    href: "https://teflassistant.com/total-english-sentence-js/",
+    href: "https://wmcooper2.com/total-english-sentence-js/",
     thumb: "thumbs/total-english-sentence-js.jpg",
     alt: "Total English Sentence",
     description: "Make sentences using material from the Total English books.",
@@ -279,7 +289,7 @@ const projects = {
   },
 
   teaDictionary: {
-    href: "https://teflassistant.com/total-english-dictionary-js/",
+    href: "https://wmcooper2.com/total-english-dictionary-js/",
     thumb: "thumbs/total-english-dictionary-js.jpg",
     alt: "Total English Dictionary",
     description: "Dictionary for the Total English book series.",
@@ -288,7 +298,7 @@ const projects = {
   },
 
   volunteers: {
-    href: "https://teflassistant.com/classroom-volunteers/",
+    href: "https://wmcooper2.com/classroom-volunteers/",
     thumb: "thumbs/classroom-volunteers.jpg",
     alt: "Classroom Volunteers",
     description: "Choose students at random.",
@@ -297,7 +307,7 @@ const projects = {
   },
 
   pokemonPronouns: {
-    href: "https://teflassistant.com/pokemon-pronouns/",
+    href: "https://wmcooper2.com/pokemon-pronouns/",
     thumb: "thumbs/pokemon-pronouns.jpg",
     alt: "Pokemon Pronouns",
     description: "Pikachu explains pronouns to Charizard.",
@@ -315,7 +325,7 @@ const projects = {
   },
 
   teflAssistant: {
-    href: "https://teflassistant.com/",
+    href: "https://wmcooper2.com/tefl-assistant",
     thumb: "thumbs/tefl-assistant.jpg",
     alt: "TEFL Assistant",
     description: "A site for TEFL teachers.",

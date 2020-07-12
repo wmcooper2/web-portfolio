@@ -58,6 +58,7 @@ function App() {
                   to see the repo.
                 </p>
                 <div className="projectDisplay">
+                  <Project {...projects.issueTracker} />
                   <Project {...projects.webPortfolio} />
                   <Project {...projects.simpleResume} />
                   <Project {...projects.simpleSurveyV2} />
