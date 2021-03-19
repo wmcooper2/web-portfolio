@@ -195,7 +195,7 @@ const projects = {
   },
 
   pomodoroClock: {
-    href: "https://codepen.io/wmcooper2/full/qBBqeLM",
+    href: "https://wmcooper2.com/pomodoro-clock",
     thumb: "thumbs/pomodoro-clock.jpg",
     alt: "Pomodoro Clock",
     description: "A Yoshi's Island themed pomodoro clock. A FCC project.",
