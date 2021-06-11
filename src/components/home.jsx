@@ -1,5 +1,6 @@
 import React from "react";
 import SocialLink from "./socialLink";
+import Badge from "./badge";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -29,6 +30,18 @@ const gitHub = {
   alt: "GitHub",
   href: "https://github.com/wmcooper2",
 };
+
+const pcepBadge = {
+  logo: "pcepcert.png",
+  alt: "PCEP Badge",
+  href: "https://www.credly.com/earner/earned/badge/c8ce2fd3-96a6-4daa-a45a-fd52001fc3e5",
+}
+
+const aPlusBadge = {
+  logo: "apluscert.png",
+  alt: "A+ Badge",
+  href: "https://www.credly.com/earner/earned/badge/aed399cc-104b-45f7-a10f-a6fb04e69e4e",
+}
 
 // const codePen = {
 // logo: SocialNavLink(faCodepen, "codepen"),
@@ -68,16 +81,14 @@ const Home = () => {
         <li>
           <SocialLink {...gitHub} />
         </li>
-        {/* <li> */}
-        {/* <SocialLink {...codePen} /> */}
-        {/* </li> */}
-        {/* <li> */}
-        {/* <SocialLink {...freeCodeCamp} /> */}
-        {/* </li> */}
         <li>
           <SocialLink {...meetup} />
         </li>
       </ul>
+      <div className="badge-container">
+        <Badge {...pcepBadge}/>
+        <Badge {...aPlusBadge}/>
+      </div>
     </div>
   );
 };
