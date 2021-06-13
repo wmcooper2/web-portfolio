@@ -87,6 +87,17 @@ const projects = {
     github: "https://github.com/wmcooper2/google-maps-transit-fares",
   },
 
+  passwordMaker: {
+    href: "https://github.com/wmcooper2/password-maker",
+    thumb: "thumbs/password-maker.jpg",
+    alt: "Password Maker",
+    description:
+      "A CLI tool for making passwords.",
+    skills: ["Python"],
+    github: "https://github.com/wmcooper2/password-maker",
+  },
+
+
   //JAVASCRIPT PROJECTS
   issueTracker: {
     href: "https://wmcooper2.com/issue-tracker",

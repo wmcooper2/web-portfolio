@@ -101,9 +101,10 @@ function App() {
                   <Project {...projects.lyricScraper} />
                   <Project {...projects.billboardScraper} />
                   <Project {...projects.pythonTEA} />
-                  <Project {...projects.lyricSearch} />
+                  {/* <Project {...projects.lyricSearch} /> */}
                   <Project {...projects.piCluster} />
                   <Project {...projects.pictureCollector} />
+                  <Project {...projects.passwordMaker} />
                   {/* <Project {...projects.machineScripts} /> */}
                 </div>
               </div>
