@@ -199,7 +199,7 @@ const projects = {
     thumb: "thumbs/pomodoro-clock.jpg",
     alt: "Pomodoro Clock",
     description: "A Yoshi's Island themed pomodoro clock. A FCC project.",
-    skills: ["HTML", "CSS", "JavaScript"],
+    skills: ["HTML", "CSS", "JavaScript", "React"],
     github: "https://github.com/wmcooper2/fcc-pomodoro-clock",
   },
 
@@ -256,7 +256,7 @@ const projects = {
     href: "https://wmcooper2.com/color-changing-tiles/",
     thumb: "thumbs/color-changing-tiles.jpg",
     alt: "Color Changing Tiles",
-    description: "Tool for tracking game state between teams of colors.",
+    description: "Generic tool for tracking game state between teams of colors.",
     skills: ["HTML", "CSS", "JavaScript", "React"],
     github: "https://github.com/wmcooper2/color-changing-tiles",
   },

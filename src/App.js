@@ -63,8 +63,8 @@ function App() {
                   <Project {...projects.simpleResume} />
                   <Project {...projects.simpleSurveyV2} />
                   <Project {...projects.keelyTributeV2} />
-                  <Project {...projects.teflAssistant} />
-                  <Project {...projects.tokyoPython} />
+                  {/* <Project {...projects.teflAssistant} /> */}
+                  {/* <Project {...projects.tokyoPython} /> */}
                   <Project {...projects.pokemonPronouns} />
                   <Project {...projects.volunteers} />
                   <Project {...projects.teaDictionary} />
@@ -72,20 +72,20 @@ function App() {
                   <Project {...projects.hidingSpotGame} />
                   <Project {...projects.matchGame} />
                   <Project {...projects.colorChangingTiles} />
-                  <Project {...projects.treeMap} />
-                  <Project {...projects.choroplethMap} />
-                  <Project {...projects.heatMap} />
-                  <Project {...projects.scatterPlot} />
-                  <Project {...projects.barChart} />
+                  {/* <Project {...projects.treeMap} /> */}
+                  {/* <Project {...projects.choroplethMap} /> */}
+                  {/* <Project {...projects.heatMap} /> */}
+                  {/* <Project {...projects.scatterPlot} /> */}
+                  {/* <Project {...projects.barChart} /> */}
                   <Project {...projects.pomodoroClock} />
-                  <Project {...projects.calculator} />
-                  <Project {...projects.drumMachine} />
+                  {/* <Project {...projects.calculator} /> */}
+                  {/* <Project {...projects.drumMachine} /> */}
                   <Project {...projects.quoteMachine} />
                   <Project {...projects.markdownPreview} />
-                  <Project {...projects.techDoc} />
+                  {/* <Project {...projects.techDoc} /> */}
                   <Project {...projects.fakeProduct} />
-                  <Project {...projects.simpleSurvey} />
-                  <Project {...projects.keelyTribute} />
+                  {/* <Project {...projects.simpleSurvey} /> */}
+                  {/* <Project {...projects.keelyTribute} /> */}
                 </div>
               </div>
             </Route>
@@ -104,7 +104,7 @@ function App() {
                   <Project {...projects.lyricSearch} />
                   <Project {...projects.piCluster} />
                   <Project {...projects.pictureCollector} />
-                  <Project {...projects.machineScripts} />
+                  {/* <Project {...projects.machineScripts} /> */}
                 </div>
               </div>
             </Route>
