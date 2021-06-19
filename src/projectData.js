@@ -16,7 +16,7 @@ const projects = {
     alt: "Total English Quiz Game",
     description:
       "A turn-based mario-themed quiz game using the material from the Total English book series.",
-    skills: ["Python", "Pyglet", "PIL"],
+    skills: ["Python", "Pyglet"],
     github: "https://github.com/wmcooper2/TotalEnglishReviewGame",
   },
 
@@ -96,6 +96,18 @@ const projects = {
     skills: ["Python"],
     github: "https://github.com/wmcooper2/password-maker",
   },
+
+  spriteExtractor: {
+    href: "https://github.com/wmcooper2/remove-sprite-backgrounds.git",
+    thumb: "thumbs/sprite-extractor.jpg",
+    alt: "Sprite Extractor",
+    description:
+      "A GUI tool to extract game sprites.",
+    skills: ["Python", "Pyglet"],
+    github: "https://github.com/wmcooper2/remove-sprite-backgrounds.git",
+  },
+
+
 
 
   //JAVASCRIPT PROJECTS

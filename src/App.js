@@ -96,15 +96,16 @@ function App() {
                   Click on the images or the GitHub icon to see the repo.
                 </p>
                 <div className="projectDisplay">
-                  <Project {...projects.transitFares} />
+                  <Project {...projects.spriteExtractor} />
+                  <Project {...projects.passwordMaker} />
                   <Project {...projects.marioReview} />
+                  <Project {...projects.transitFares} />
                   <Project {...projects.lyricScraper} />
                   <Project {...projects.billboardScraper} />
                   <Project {...projects.pythonTEA} />
                   {/* <Project {...projects.lyricSearch} /> */}
                   <Project {...projects.piCluster} />
                   <Project {...projects.pictureCollector} />
-                  <Project {...projects.passwordMaker} />
                   {/* <Project {...projects.machineScripts} /> */}
                 </div>
               </div>
