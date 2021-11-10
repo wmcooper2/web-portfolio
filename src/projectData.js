@@ -107,6 +107,20 @@ const projects = {
     github: "https://github.com/wmcooper2/remove-sprite-backgrounds.git",
   },
 
+  handwritingTemplate: {
+    href: "https://github.com/wmcooper2/handwriting-template-prep",
+    thumb: "thumbs/handwriting-template.jpg",
+    alt: "Handwriting Template",
+    description:
+      "A tool for extracting handwritten letters from the template document.",
+    skills: ["Python", "OpenCV", "Jupyter"],
+    github: "https://github.com/wmcooper2/handwriting-template-prep",
+  },
+
+
+
+
+
 
 
 

@@ -16,6 +16,7 @@ const homeLogo = <FontAwesomeIcon icon={faHome} id="homeLogo" />;
 const pythonLogo = <FontAwesomeIcon icon={faPython} id="pythonLogo" />;
 const jsLogo = <FontAwesomeIcon icon={faJs} id="javascriptLogo" />;
 
+
 function App() {
   return (
     <HashRouter>
@@ -24,7 +25,8 @@ function App() {
           <nav>
             <ul>
               <li>
-                <NavLink to="/" className="navicon">
+                <NavLink to="/" className="navicon" >
+                {/* <NavLink to="/" className="navicon" style={{ transform: "scale(2)"}}> */}
                   {homeLogo}
                 </NavLink>
                 <div className="border-bottom-expand"></div>
@@ -83,7 +85,7 @@ function App() {
                   <Project {...projects.quoteMachine} />
                   <Project {...projects.markdownPreview} />
                   {/* <Project {...projects.techDoc} /> */}
-                  <Project {...projects.fakeProduct} />
+                  {/* <Project {...projects.fakeProduct} /> */}
                   {/* <Project {...projects.simpleSurvey} /> */}
                   {/* <Project {...projects.keelyTribute} /> */}
                 </div>
@@ -93,20 +95,21 @@ function App() {
             <Route path="/python">
               <div>
                 <p className="javascript-project-description">
-                  Click on the images or the GitHub icon to see the repo.
+                  Click on the projects to open up the GitHub repo.
                 </p>
                 <div className="projectDisplay">
                   <Project {...projects.spriteExtractor} />
                   <Project {...projects.passwordMaker} />
-                  <Project {...projects.marioReview} />
-                  <Project {...projects.transitFares} />
-                  <Project {...projects.lyricScraper} />
-                  <Project {...projects.billboardScraper} />
-                  <Project {...projects.pythonTEA} />
-                  {/* <Project {...projects.lyricSearch} /> */}
                   <Project {...projects.piCluster} />
                   <Project {...projects.pictureCollector} />
+                  <Project {...projects.marioReview} />
+                  <Project {...projects.transitFares} />
+                  {/* <Project {...projects.lyricSearch} /> */}
+                  <Project {...projects.pythonTEA} />
+                  <Project {...projects.lyricScraper} />
+                  <Project {...projects.billboardScraper} />
                   {/* <Project {...projects.machineScripts} /> */}
+                  <Project {...projects.handwritingTemplate} />
                 </div>
               </div>
             </Route>
